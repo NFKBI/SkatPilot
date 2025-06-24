@@ -29,7 +29,7 @@ ChartJS.register(
 
 const supabase = createClient("https://YOUR_PROJECT.supabase.co", "YOUR_PUBLIC_ANON_KEY");
 
-export default function SkatteSkræddersyeren() {
+export default function SkatteSkraeddersyeren() {
   const [session, setSession] = useState(null);
   const [email, setEmail] = useState("");
   const [income, setIncome] = useState(0);
